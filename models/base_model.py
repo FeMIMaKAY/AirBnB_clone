@@ -12,7 +12,6 @@ class BaseModel:
 
     def __init__(self, *args, **kwargs):
         """Initializes instance attributes
-
         Args:
             - *args: list of arguments
             - **kwargs: dict of key-values arguments
@@ -53,3 +52,4 @@ class BaseModel:
         my_dict["__class__"] = type(self).__name__
         my_dict["created_at"] = my_dict["created_at"].isoformat()
         my_dict["updated_at"] = my_dict["updated_at"].isoformat()
+        return 
