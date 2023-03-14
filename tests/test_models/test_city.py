@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Defines unittests for models/city.py.
-
 Unittest classes:
     TestCity_instantiation
     TestCity_save
@@ -192,3 +191,4 @@ class TestCity_to_dict(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    unittest.main()
